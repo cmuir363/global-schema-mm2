@@ -1,0 +1,13 @@
+{
+  "doc": "example.external",
+  "fields": [{
+    "default": 5,
+    "doc": "my test number external",
+    "name": "test",
+    "namespace": "test",
+    "type": "int"
+  }],
+  "name": "example.external",
+  "namespace": "example.external",
+  "type": "record"
+}

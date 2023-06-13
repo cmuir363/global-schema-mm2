@@ -48,6 +48,6 @@ resource "aiven_mirrormaker_replication_flow" "f1" {
   replication_policy_class = "org.apache.kafka.connect.mirror.IdentityReplicationPolicy"
 
   topics = [
-    "_schemas",
+    ".*",
   ]
 }
